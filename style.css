@@ -2,17 +2,21 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: space-between;
-    flex-direction: column
+    flex-direction: column;
+    margin: 0%;
+    
+    
 
 
 }
 .header{
     display:flex;
-    ox-sizing: border-box;
+    box-sizing: border-box;
     flex-shrink: 0;
     padding: 16px;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1f2937;
+    
 
 
 }
@@ -40,8 +44,9 @@ a{
 .content-1{
     background-color: #1f2937;
     display:flex;
+    gap:200px;
     font-size: 18px;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 70px;
 
 }
@@ -49,14 +54,24 @@ a{
 .izq{
     width: 500px;
 }
+
+.p-1{
+    font-size: 20px;
+    color: #f9faf8;
+    padding-top: 0;
+    height: 60px;
+}
 .img-1{
     height: auto;
     width: 300px;
+    border: none;
 }
 h1{
     font-weight: 900;
     color: #f9faf8;
     font-size: 48px;
+    padding-bottom: 0;
+    height: 85;
 }
 
 button{
@@ -65,8 +80,13 @@ button{
     height: 30px;
     border: 0;
     color: #e5e7eb;
+    
 }
-
+.button-i{
+    width: 100px;
+    font-size: 16px;
+    font-weight: bolder;
+}
 .tittle{
     display: flex;
     justify-content: center;
@@ -104,9 +124,6 @@ button{
     height: auto;
     padding: 0%;
 
-
-
-    
 }
 .p2{
     display: flex;
@@ -117,14 +134,14 @@ button{
 
 }
 
-.footer{
-    background-color: #1f2937;
-}
 
 
 img{
     width: 300px;
     height: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 10px solid #3882f6;
 }
 
 .descripcion{
@@ -132,14 +149,58 @@ img{
     
 }
 
-.blue{
-    background-color: #e5e7eb;
-}
 
 .text{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    width: 200px;
+    width: 300px;
 }
 
+.blue{
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 70px;
+
+}
+
+.button-2{
+background-color: #3882f6;
+border:#f9faf8 solid 2px;
+width: 100px;
+font-weight: bolder;
+font-size: 15px;
+
+
+}
+
+.text-final {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 365px;
+    
+    
+}
+
+.button-f{
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    border-radius: 15px;
+    width: 900px;
+    justify-content: space-evenly;
+
+
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
