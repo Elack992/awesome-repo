@@ -13,8 +13,8 @@ body{
     display:flex;
     box-sizing: border-box;
     flex-shrink: 0;
-    padding: 16px;
-    justify-content: space-between;
+    padding: 30px;
+    justify-content: center;
     background-color: #1f2937;
     
 
@@ -24,6 +24,7 @@ body{
     margin-left: auto;
     color: #f9faf8;
     font-size: 24px;
+    width: 400px;
 }
 
 ul{
@@ -31,9 +32,7 @@ ul{
     gap:20px;
     list-style: none;
     margin: auto;
-    
-
-    
+    width: 400px;
 }
 
 a{
@@ -44,7 +43,7 @@ a{
 .content-1{
     background-color: #1f2937;
     display:flex;
-    gap:200px;
+    gap:70px;
     font-size: 18px;
     justify-content: center;
     padding-bottom: 70px;
@@ -62,8 +61,8 @@ a{
     height: 60px;
 }
 .img-1{
-    height: auto;
-    width: 300px;
+    height: 280px;
+    width: 600px;
     border: none;
 }
 h1{
@@ -100,10 +99,11 @@ button{
 .content-3{
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 140px;
     text-align: center;
     background-color: white;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 .content-4{
     
@@ -137,16 +137,18 @@ button{
 
 
 img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
     margin-bottom: 20px;
-    border: 10px solid #3882f6;
+    border: 7px solid #3882f6;
 }
 
 .descripcion{
     max-width: 200px;
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 
@@ -154,7 +156,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    width: 300px;
+    width: 205px;
 }
 
 .blue{
